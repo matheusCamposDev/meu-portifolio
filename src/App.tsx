@@ -7,11 +7,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <main>
-        <section
-          id="home"
-          className="h-screen bg-black gap-8 flex flex-row items-center justify-center px-4"
-        >
+      <main className="h-screen bg-black gap-8 flex flex-row items-center justify-center px-4">
+        <section>
           <Routes>
             <Route path="/" element={<Navigate to="/home" replace />} />
             <Route path="/home" element={<Home />} />
