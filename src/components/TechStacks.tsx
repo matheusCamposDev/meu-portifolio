@@ -39,8 +39,7 @@ const techs = [
 
 export function TechStack() {
   return (
-    <>
-      <div className="bg-gray-900 text-green-400 font-mono p-6 rounded-lg shadow-lg max-w-xl w-full text-start border border-green-600">
+      <div className="bg-gray-900 text-green-400 font-mono p-6 rounded-lg shadow-lg mt-5 max-w-xl w-full text-start border border-green-600">
         <h2 className="text-3xl text-center mb-4">Principais Tecnologias</h2>
 
         <div className="flex flex-col md:flex-col justify-center gap-12">
@@ -59,6 +58,5 @@ export function TechStack() {
           </div>
         </div>
       </div>
-    </>
   );
 }
