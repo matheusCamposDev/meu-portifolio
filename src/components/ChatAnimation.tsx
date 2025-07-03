@@ -12,7 +12,7 @@ export function ChatAnimation() {
       <TypeAnimation
         style={{ whiteSpace: "pre-line", display: "block" }}
         sequence={[
-          `> Oláa, sou o Matheus e sou Desenvolvedor FullStack\n> com 3 anos de experiência em desenvolvimento web \n > e alguns projetos em meu portfólio.`,
+          `> Olá, sou o Matheus e sou Desenvolvedor FullStack\n> com 3 anos de experiência em desenvolvimento web \n > e alguns projetos em meu portfólio.`,
           1000,
         ]}
         wrapper="span"
