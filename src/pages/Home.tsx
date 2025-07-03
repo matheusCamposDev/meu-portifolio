@@ -8,7 +8,7 @@ export function Home() {
       className="h-screen bg-black gap-8 flex flex-col items-center justify-center px-4 w-200"
     >
       <div className="flex flex-col items-center">
-        <h1 className="text-4xl text-green-400 font-bold mb-4">
+        <h1 className="text-4xl text-green-400 font-mono mb-4">
           Bem-vindo ao meu Portfólio
         </h1>
 
