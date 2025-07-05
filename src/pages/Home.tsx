@@ -8,7 +8,7 @@ export function Home() {
         Bem-vindo ao meu Portfólio
       </h1>
 
-      <ChatAnimation />
+      <ChatAnimation sequence={[`> Olá, sou o Matheus e sou Desenvolvedor FullStack\n> com 3 anos de experiência em desenvolvimento web\n> e alguns projetos em meu portfólio.`, 1000]} />
       <TechStack />
     </>
   );
