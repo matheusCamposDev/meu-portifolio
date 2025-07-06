@@ -11,7 +11,6 @@
       "animation": {
         "enable": false
       }
-    
     },
     "color": {
       "value": "#39FF14"
@@ -28,6 +27,24 @@
       "direction": "none",
       "outModes": {
         "default": "bounce"
+      }
+    }
+  },
+  "interactivity": {
+    "events": {
+      "onHover": {
+        "enable": true,
+        "mode": "attract"
+      },
+      "onClick": {
+        "enable": false
+      }
+    },
+    "modes": {
+      "attract": {
+        "distance": 200,
+        "duration": 0.4,
+        "speed": 1
       }
     }
   }
